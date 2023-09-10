@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 西蒙的播客
 subtitle: ''
 description: ''
-keywords:
-author: John Doe
-language: en
+keywords: 
+author: 
+language: zh-CN
 timezone: ''
 
 # URL
@@ -17,6 +17,9 @@ url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
+  index_generator:
+    path: ''
+    per_page: 6
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
@@ -97,7 +100,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+## theme: landscape
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +109,4 @@ deploy:
   type: git
   repo: git@github.com:linyunshu/linyunshu.github.io.git
   branch: main
+
